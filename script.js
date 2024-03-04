@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         index = (index + 1) % slides.length;
         slides[index].classList.add('active');
 
-        setTimeout(showSlide, 10000);
+        setTimeout(showSlide, 4000);
     }
 
     showSlide();

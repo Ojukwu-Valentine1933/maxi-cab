@@ -9,8 +9,8 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     height: 420px;
-   
-    
+
+
 }
 .hero{
      
@@ -63,7 +63,7 @@ ul{
     justify-content: center;
     font-size: 16px;
     font-family: "Barlow", sans-serif;
-    /* font-weight: 100; */
+    
 }
 #text-and-button button{
     width: 80px;
@@ -99,14 +99,14 @@ ul{
     top: 0;
     left: 0;
     opacity: 0;
-    transition: opacity 1s ease-in-out; /* Smooth fade transition */
+    transition: opacity 1s ease-in-out; 
 }
 
 .slide.active {
     opacity: 1;
 }
 .form-container{
-    /* background-color: rgba(0, 0, 0, 0.1); */
+
 height: 650px;
 border-radius: 0 0 7px 7px;
 }
@@ -118,28 +118,28 @@ border-radius: 0 0 7px 7px;
 }
 .slide-container {
     overflow: hidden;
-    height: 50px; /* Adjust height as needed */
+    height: 50px; 
 }
 
 .text-slide {
-    animation: slide 20s linear infinite; /* Continuous linear animation */
+    animation: slide 20s linear infinite; 
     height: 100%;
 }
 
 .text-slide:nth-child(2) {
-    animation-delay: 5s; /* Delay the start of the animation for the second text */
+    animation-delay: 5s; 
 }
 
 .text-slide:nth-child(3) {
-    animation-delay: 10s; /* Delay the start of the animation for the third text */
+    animation-delay: 10s; 
 }
 
 .text-slide:nth-child(4) {
-    animation-delay: 15s; /* Delay the start of the animation for the fourth text */
+    animation-delay: 15s; 
 }
 
 .text-slide:nth-child(5) {
-    animation-delay: 20s; /* Delay the start of the animation for the fifth text */
+    animation-delay: 20s;
 }
 
 @keyframes slide {
@@ -154,7 +154,7 @@ border-radius: 0 0 7px 7px;
     background-color: white;
     transition: background-color 0.3s ease;
 }
-/* Define the hover effect */
+
 .card:hover {
     background-color: black;
     color: lightblue;
